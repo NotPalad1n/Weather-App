@@ -1,0 +1,16 @@
+.dayCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 1.5em;
+    min-width: 150px
+}
+
+.dayCard div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

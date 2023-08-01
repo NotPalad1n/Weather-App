@@ -1,0 +1,49 @@
+.weather{
+    background-color: white;
+    padding: 2em;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.weather input{
+    text-indent: 5px;
+    height: 2.5em;
+}
+
+.weather div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather .input {
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+}
+
+.weather .temp{
+    font-size: 6em;
+    font-weight: 700;
+}
+
+.icon{
+    height: 10em;
+}
+
+.dailyList{
+    display: flex;
+    overflow-x: scroll;
+    max-width: 100%;
+}
+
+.weather .windAndHumidity{
+    gap: 20px;
+}
+.weather .windAndHumidity div {
+    gap: 5px;
+}
