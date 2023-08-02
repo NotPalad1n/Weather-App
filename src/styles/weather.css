@@ -1,32 +1,24 @@
 .weather{
-    background-color: white;
-    padding: 2em;
-    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-}
-
-.weather input{
-    text-indent: 5px;
-    height: 2.5em;
+    width: 100%;
+    z-index: 1;
 }
 
 .weather div{
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
-.weather .input {
-    display: flex;
-    width: 100%; 
-    justify-content: space-between;
+.description{
+    font-size: 1.25em;
+    font-weight: 500;
+    content: " ";
 }
 
-.weather .temp{
+.temp{
     font-size: 6em;
     font-weight: 700;
 }
@@ -35,15 +27,33 @@
     height: 10em;
 }
 
-.dailyList{
+.windAndHumidity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.windAndHumidity img{
+    height: 40px;
+}
+.windAndHumidity div {
+    gap: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    width: 100%;
+    background-color: white;
+}
+
+
+/* .dailyList {
     display: flex;
     overflow-x: scroll;
     max-width: 100%;
-}
-
-.weather .windAndHumidity{
-    gap: 20px;
-}
-.weather .windAndHumidity div {
-    gap: 5px;
-}
+} */
